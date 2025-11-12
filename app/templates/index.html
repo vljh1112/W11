@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="kr">
+<head>
+    <meta charset="utf-8">
+    <title>{{ data.title }}</title>
+</head>
+<body>
+    <h1>{{ data.title }} 프로젝트 소개</h1>
+    <nav>
+        {% for item in data.nav %}
+            <a href="{{ item.href }}">{{ item.text }}</a> |
+        {% endfor %}
+    </nav>
+</body>
+</html>

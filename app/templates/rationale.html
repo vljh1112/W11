@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ data.section }}</title>
+</head>
+<body>
+    <h2>{{ data.section }}</h2>
+    <p><b>문제:</b> {{ data.problem }}</p>
+    <p><b>근거:</b></p>
+    <ul>
+        {% for item in data.basis %}
+            <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+    <p><b>가치:</b> {{ data.value }}</p>
+    <p><a href="/">← 홈</a></p>
+</body>
+</html>

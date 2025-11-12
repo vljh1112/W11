@@ -1,0 +1,56 @@
+{
+  "index": {
+    "title": "캡스톤 소개",
+    "nav": [
+      {"href": "/subject", "text": "작품주제"},
+      {"href": "/rationale", "text": "실용적 근거"},
+      {"href": "/features", "text": "핵심기능"},
+      {"href": "/environment", "text": "구현환경"},
+      {"href": "/team", "text": "팀원 구성 및 역할"}
+    ]
+  },
+  "subject": {
+    "section": "작품주제",
+    "subject": "펀렉(Fun Recreation)",
+    "description": "레크레이션 준비 시간을 줄여줄 수 있는 웹 서비스"
+  },
+  "rationale": {
+    "section": "실용적 근거",
+    "problem": "레크레이션을 준비하는데 적지 않은 시간이 소요되고, 자료들을 직접 준비해야 하는 등의 불편사항이 있다.",
+    "basis": [
+      "여러가지 기능들을 이 웹 서비스를 통해 이용할 수 있다.",
+      "자료를 직접 모으지 않고 저장된 데이터나 기능을 활용할 수 있다."
+    ],
+    "value": "시간 절약, 접근성 향상, 공정한 판정, 간편한 관리"
+  },
+  "features": {
+    "section": "핵심기능",
+    "core": [
+      "노래 맞추기 게임",
+      "단어 빠르게 입력하기 게임",
+      "스피드 퀴즈 게임",
+      "캐릭터 맞추기 게임"
+    ],
+    "extra": [
+      "당첨자/벌칙자 뽑기 기능",
+      "보물뽑기 기능"
+    ]
+  },
+  "environment": {
+    "section": "구현환경",
+    "stack": {
+      "Front-End": "HTML, CSS, REACT",
+      "Back-End": "SPRING BOOT",
+      "Runtime": "Docker, 컨테이너",
+      "Deploy": "AWS EC2(Amazon Elastic Compute Cloud)"
+    }
+  },
+  "team": {
+    "section": "팀원 구성 및 역할",
+    "members": [
+      {"role": "팀장", "name": "이지형", "resp": "프론트엔드(UI 및 핵심 기능 개발)"},
+      {"role": "팀원", "name": "옥서연", "resp": "프론트엔드 일부 기능 개발, 발표 및 ppt 제작"},
+      {"role": "팀원", "name": "이종성", "resp": "백엔드(API 개발 및 배포)"}
+    ]
+  }
+}
